@@ -1,0 +1,182 @@
+body {
+    background-image: url(faded-office.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+#nav-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #0ea5e9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item {
+    color: white;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nav-item :hover {
+    background: #FF7F27;
+    border-bottom: 5px solid white;
+    padding: 0;
+    margin: 0 auto;
+    cursor: pointer;
+    height: initial;
+}
+
+.link {
+    color: inherit;
+}
+
+#content {
+    margin: 20px 0 0 60px;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 50px;
+    color: #020202;
+    text-shadow: 0 2px 4px #0ea5e9;
+    width: 340px;
+    padding: 10px 0 0 40px;
+}
+
+#sub-title {
+    font-weight: 600;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    color: #020202;
+    text-shadow: 2px 2px 2px #FF7F27;
+    width: 340px;
+    padding: 0 0 0 40px;
+}
+
+#btn {
+    background-color: #0ea5e9;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    font-family: inherit;
+    font-size: 15px;
+    width: 130px;
+    margin: 0 0 0 40px;
+}
+
+#btn :hover {
+    cursor: pointer;
+}
+
+#contact-button
+{
+    color: inherit;
+}
+
+#about {
+    font-size: 19px;
+    width: 280px;
+    padding: 0 0 0 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+main {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+#course-list {
+    list-style: none;
+}
+
+#course-list ::before{ 
+    padding-right: 10px;
+    content: "\00BB"; 
+} 
+
+#forms
+{
+    padding: 0 0 0 80px;
+}
+
+label
+{
+    width: 340px;
+    padding: 0 0 0 40px;
+}
+
+.form-entry
+{
+    margin:0;
+    padding: 0 10px 10px 0 ;
+}
+
+#submit
+{
+    margin: 0 100px;
+    padding: 0 0 0 40px;
+}
+
+#submit-button
+{
+    background-color: #0ea5e9;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 15px;
+    width: 130px;
+    margin: 0 100px;
+}
+
+#submit-button :hover {
+    cursor: pointer;
+    color: rgb(7, 7, 168);
+}
+
+.contact
+{
+    font-size: 17px;
+    width: 280px;
+    padding: 0 0 0 40px;
+}
+
+.highlight
+{
+    font-size: 20;
+    text-decoration: underline ;  
+}
